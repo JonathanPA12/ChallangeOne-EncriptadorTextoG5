@@ -6,14 +6,27 @@
     <link rel="stylesheet" href="/styles.css">
     <title>Encriptador</title>
 </head>
-<body>
-    <button>Botón metálico</button>
-
-    <br>
-    <br>
-    
-
-
+ <body>
+    <div class="container">
+      <h1>Encriptador de Texto</h1>
+      <div class="input-group">
+        <label for="text-input">Texto:</label>
+        <textarea id="text-input"></textarea>
+      </div>
+      <div class="input-group">
+        <label for="result-input">Resultado:</label>
+        <textarea id="result-input"></textarea>
+      </div>
+      <div class="input-group">
+        <label for="mode-select">Modo:</label>
+        <select id="mode-select">
+          <option value="encrypt">Encriptar</option>
+          <option value="decrypt">Desencriptar</option>
+        </select>
+      </div>
+      <button id="convert-button">Convertir</button>
+      <button id="copy-button">Copiar</button>
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
