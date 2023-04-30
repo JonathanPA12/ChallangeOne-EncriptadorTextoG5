@@ -215,6 +215,8 @@ h1 {
 @media (min-width: 600px) and (max-width: 900px) {
   .card {
     max-width: 80%;
+    margin: 0 auto;
+    padding: 10px;
   }
 }
 
@@ -230,5 +232,13 @@ h1 {
   .card {
     max-width: 100%;
     padding: 5px;
+  }
+}
+/*cuando se pase a vista movil los botones se adecuen al tamaño y mantengan su estilo*/
+@media (max-width: 600px) {
+  .btn-9 {
+    max-width: 100px;
+    padding: 10px;
+    margin: 0 auto;
   }
 }
